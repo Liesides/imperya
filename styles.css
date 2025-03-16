@@ -1,0 +1,132 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #0a0a0a;
+    color: white;
+}
+
+/* Заголовок */
+header {
+    background: #111;
+    padding: 20px;
+    color: #ffffff;
+}
+
+/* Навигация */
+nav {
+    background: #222;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff1e1e;
+}
+
+/* Главный блок */
+.hero {
+    background: url('https://source.unsplash.com/1600x900/?technology,computer') no-repeat center;
+    background-size: cover;
+    padding: 80px 20px;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 32px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #ff1e1e;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #d40000;
+}
+
+/* Услуги */
+.services {
+    padding: 50px;
+    background: #111;
+}
+
+.services h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ff1e1e;
+}
+
+.service {
+    background: #222;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 30%;
+    min-width: 250px;
+}
+
+.service h3 {
+    color: #ff1e1e;
+}
+
+/* О нас */
+.about {
+    background: #0a0a0a;
+    padding: 50px;
+}
+
+.about h2 {
+    color: #ff1e1e;
+}
+
+/* Контакты */
+.contact {
+    background: #111;
+    padding: 40px;
+}
+
+.contact h2 {
+    color: #ff1e1e;
+}
+
+.contact p {
+    font-size: 18px;
+}
+
+/* Подвал */
+footer {
+    background: #222;
+    padding: 15px;
+    font-size: 14px;
+}
